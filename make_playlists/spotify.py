@@ -50,8 +50,7 @@ class Spotify:
     def __get_artist_top_tracks(self, artist):
         tracks =  self.client.artist_top_tracks(artist_id=artist)["tracks"]
         
-        return [track["id"] for track in tracks]
-        
+        return [track["id"] for track in tracks]   
     
     def create_playlist(self, artists, playlist_name):
         playlist_tracks = []
