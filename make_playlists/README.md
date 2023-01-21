@@ -12,16 +12,16 @@ Solution:
 
 
 How to run:
-    - Setup a [Spotify Developer Account](https://developer.spotify.com/documentation/web-api/quick-start/)
-    - Create the file ".env" in the SpotifyTools/make_playlists directory with the following contents that can be found in your Spotify Developer Account:
-        SPOTIFY_CLIENT_ID="yours_goes_here"
-        SPOTIFY_CLIENT_SECRET="yours_goes_here"
+- Setup a [Spotify Developer Account](https://developer.spotify.com/documentation/web-api/quick-start/)
+- Create the file ".env" in the SpotifyTools/make_playlists directory with the following contents that can be found in your Spotify Developer Account:
+    SPOTIFY_CLIENT_ID="yours_goes_here"
+    SPOTIFY_CLIENT_SECRET="yours_goes_here"
 
-    - Run the following commands in the /SpotifyTools/make_playlists directory from your terminal:
-    ```
-    pip install spotipy
-    pip install python-dotenv
-    python make_playlist.py
-    ```
+- Run the following commands in the /SpotifyTools/make_playlists directory from your terminal:
+```
+pip install spotipy
+pip install python-dotenv
+python make_playlist.py
+```
 
 **Note: Developed with Python 3.8.10**
